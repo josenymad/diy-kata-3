@@ -11,9 +11,7 @@ const fizzBuzz = (number) => {
   if (multipleOf5) {
     return "Buzz";
   }
-  if (!(multipleOf3 || multipleOf5)) {
-    return number;
-  }
+  return number;
 };
 
 module.exports = fizzBuzz;
